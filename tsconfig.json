@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es2022" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "module": "commonjs" /* Specify what module code is generated. */,
+    "rootDir": "./src" /* Specify the root folder within your source files. */,
+    "baseUrl": "./src" /* Specify the base directory to resolve non-relative module names. */,
+    "paths": {
+      "@services/*": ["services/*"],
+      "@models/*": ["models/*"]
+    },
+    "outDir": "./dist" /* Specify an output folder for all emitted files. */,
+    "removeComments": true /* Disable emitting comments. */,
+    "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
+    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+
+    "strict": true /* Enable all strict type-checking options. */,
+    "alwaysStrict": true /* Ensure 'use strict' is always emitted. */,
+    "noUncheckedIndexedAccess": false /* Add 'undefined' to a type when accessed using an index. */,
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */,
+
+    /* Additional options for better code quality and performance */
+    "noImplicitAny": false /* Raise error on expressions and declarations with an implied 'any' type. */,
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
